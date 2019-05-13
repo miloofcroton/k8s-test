@@ -6,7 +6,7 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      components: web
+      component: web
   template:
     metadata:
       labels:
